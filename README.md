@@ -1,0 +1,1 @@
+# BNSHI_technolympics-sample
