@@ -1,0 +1,214 @@
+body
+{
+    background-image: url(DownloadedImages/113153.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.MainCon
+{
+    
+    background-color: rgba(170, 245, 255, 0.73);
+    width: 1000px;
+    height: auto;
+}
+.CoverFirst
+{
+    background-color: rgb(52, 232, 255);
+    width: 1000px;
+    height: 50px;
+    padding-top: 1px;
+    
+}
+.FirstLine
+{
+    background-color: rgb(52, 232, 255);
+    width: 100%;
+    height: auto;
+    margin-top: -10px;
+}
+.FirstLineA
+{
+    background-color: rgb(52, 232, 255);
+    width: 100%;
+    height: auto;
+}
+.SecondLine
+{
+    width: 100%;
+    height: auto;
+    background-color: rgb(152, 255, 255);
+}
+.Date
+{
+    text-align: left;
+    float: left;
+    font-size: 45px;
+    font-family: Cambria Math;
+    color: black;
+    padding-left: 5px;
+}
+.FirstCon
+{
+    background-color: rgb(226, 0, 255);
+    height: 50px;
+    width: 150px;
+    font-weight: bold;
+    display: inline;
+    list-style: none;
+    text-align: right;
+    
+}
+.FirstCon ul
+{
+    position: relative;
+}
+.FirstCon
+{
+    display: inline;
+}
+.SecondCon
+{
+    width 1000px;
+    height: 200px;
+    
+}
+.COVER
+{
+    background-color: rgb(152, 255, 255);
+    height: 10px;
+    width: 1000px;
+}
+.COVER1
+{
+    background-color: rgb(52, 232, 255);
+    height: 10px;
+    width: 1000px;
+}
+.CoverFooterA
+{
+    background-color: rgb(52, 232, 255);
+    height: auto;
+    width: 101%px;
+    margin-top: -8px;
+}
+.CoverFooter
+{
+    background-color: rgb(52, 232, 255);
+    height: auto;
+    width: 101%px;
+    margin-bottom: -20px;
+}
+.ThirdCon
+{
+    height: 50px;
+    width: 150px;
+    font-weight: bold;
+    display: inline;
+    list-style: none;
+    text-align: left;
+    
+}
+.ThirdCon ul
+{
+    position: relative;
+}
+.ThirdCon
+{
+    display: inline;
+}
+.CoverThird
+{
+    background-color: rgb(52, 232, 255);
+    width: 1000px;
+    height: 50px;
+    padding-top: .1px;
+    
+}
+.FourthCon
+{
+    height: auto;
+    width: 850px; 
+}
+
+        
+        ul li
+        {
+            background-color: rgb(52, 232, 255);
+            padding-top: 16px;
+            padding-bottom: 16px;
+            padding-left: 40px;
+            padding-right:  40px;
+            display: inline;
+            font-weight: bold;
+            color: inherit;
+            position: relative;
+            
+        }
+        
+        ul li a
+        {
+            text-decoration: none;
+            color: black;
+            border-radius: 10px;
+        }
+        
+        
+        ul li:hover
+        {
+            background: black;
+            color:cyan;
+            transition: all .8s ease;
+            border-radius: 10px;
+        }
+        
+        ul li:hover a
+        {
+            color: #fff;
+            transition: all .8s ease;
+        }
+
+        
+.Right
+{
+    height:320px;
+    width: 850px;
+    position: relative;
+    overflow: hidden;
+    margin-top: 0px;
+    max-width: 3000px;
+}
+.Right Figure
+{
+    position:relative;
+    width:560%;
+    margin-left: -258px;
+    
+    animation-name: images;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+}
+@keyframes images
+{
+    0%{right:0%}
+    15%{right:0%}
+    
+    20%{right:99.5%}
+    35%{right:99.5%}
+    
+    40%{right:199.5%}
+    55%{right:199.5%}
+    
+    60%{right:299.5%}
+    75%{right:299.5%}
+    
+    80%{right:399.5%}
+    95%{right:399.5%}
+    
+    100%{right:399.5%}
+    100%{right:0%}
+}
+
+
+
